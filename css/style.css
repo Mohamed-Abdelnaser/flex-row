@@ -10,14 +10,14 @@ h1{
   padding-bottom:20px ;
 }
 img{
-  width: 250px;
+  width: 100%;
   border-radius: 20px;
 }
 .product{
-  height: 375px;
+  width: 250px;;
   border-radius: 20px;
   background-color: rgb(222, 230, 230);
- text-align: center;
+  text-align: center;
   
 }
 .product:hover{
@@ -31,7 +31,7 @@ button:hover{
 }
 
 @media (max-width: 768px) {
-  .product img {
+  .product  {
       width: 100%;
   }
 }
